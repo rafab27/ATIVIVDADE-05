@@ -1,0 +1,105 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff8f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  height: 130px;
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+header, footer {
+  background-color: #51008b;
+  color: white;
+  padding: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  color: #8b0000;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #d00000;
+  color: white;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.image-flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.image-flex img {
+  width: 200px;
+  border: 2px solid black;
+}
+
+.flex-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.play-music {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.play-music iframe {
+  width: auto;
+  height: auto;
+}
+
+.play-music div {
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 10px;
+}

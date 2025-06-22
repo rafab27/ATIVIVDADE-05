@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contato</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="img/viola-logo.png" alt="" class="logo"></a>
+    <h1>Coração da Viola</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="historia.html">História</a>
+      <a href="discografia.html">Discografia</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Fale Conosco</h2>
+    <form>
+      <label>Nome:<br>
+        <input type="text" name="nome" required>
+      </label><br><br>
+
+      <label>Email:<br>
+        <input type="email" name="email" required>
+      </label><br><br>
+
+      <label>Telefone:<br>
+        <input type="tel" name="telefone" placeholder="(99) 99999-9999">
+      </label><br><br>
+
+      <label>Assunto:<br>
+        <select name="assunto">
+          <option value="elogio">Elogio</option>
+          <option value="duvida">Dúvida</option>
+          <option value="agenda">Agendamento de show</option>
+          <option value="outro">Outro</option>
+        </select>
+      </label><br><br>
+
+      <label>Mensagem:<br>
+        <textarea name="mensagem" rows="5" cols="40" required></textarea>
+      </label><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Coração da Viola</p>
+    <p><a href="https://instagram.com" target="_blank" style="color:white;">Instagram</a></p>
+  </footer>
+</body>
+</html>
